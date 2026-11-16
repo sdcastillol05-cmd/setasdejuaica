@@ -19,15 +19,15 @@ img{max-width:100%}
 a{color:inherit}
 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
 
-/* fondos sólidos con micelio: trazos curvos del mismo tono */
-[class*="bg-"]{background-color:var(--bg,var(--crema));background-image:var(--pat);background-size:220px 220px}
-.bg-crema{--bg:#fbf6ea;--pat:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 200 200' fill='none' stroke='%23e3d6b4' stroke-width='1.8' stroke-linecap='round'><path d='M0 60C40 30 70 90 110 60S170 40 200 60'/><path d='M100 0C80 40 130 70 100 110S80 170 100 200'/><path d='M110 60C130 80 150 75 165 100'/><path d='M100 110C70 120 45 110 30 140'/><path d='M82 158C62 168 52 186 36 200'/><path d='M36 0C40 10 48 12 52 26'/><path d='M150 76C158 60 172 58 184 66'/><circle cx='165' cy='100' r='3' fill='%23e3d6b4'/><circle cx='30' cy='140' r='3' fill='%23e3d6b4'/><circle cx='52' cy='26' r='2.5' fill='%23e3d6b4'/><circle cx='184' cy='66' r='2.5' fill='%23e3d6b4'/></svg>")}
-.bg-crema2{--bg:#f6eedb;--pat:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 200 200' fill='none' stroke='%23dccea8' stroke-width='1.8' stroke-linecap='round'><path d='M0 60C40 30 70 90 110 60S170 40 200 60'/><path d='M100 0C80 40 130 70 100 110S80 170 100 200'/><path d='M110 60C130 80 150 75 165 100'/><path d='M100 110C70 120 45 110 30 140'/><path d='M82 158C62 168 52 186 36 200'/><path d='M36 0C40 10 48 12 52 26'/><path d='M150 76C158 60 172 58 184 66'/><circle cx='165' cy='100' r='3' fill='%23dccea8'/><circle cx='30' cy='140' r='3' fill='%23dccea8'/><circle cx='52' cy='26' r='2.5' fill='%23dccea8'/><circle cx='184' cy='66' r='2.5' fill='%23dccea8'/></svg>")}
-.bg-menta{--bg:#a8dccf;--pat:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 200 200' fill='none' stroke='%237cc3b0' stroke-width='1.8' stroke-linecap='round'><path d='M0 60C40 30 70 90 110 60S170 40 200 60'/><path d='M100 0C80 40 130 70 100 110S80 170 100 200'/><path d='M110 60C130 80 150 75 165 100'/><path d='M100 110C70 120 45 110 30 140'/><path d='M82 158C62 168 52 186 36 200'/><path d='M36 0C40 10 48 12 52 26'/><path d='M150 76C158 60 172 58 184 66'/><circle cx='165' cy='100' r='3' fill='%237cc3b0'/><circle cx='30' cy='140' r='3' fill='%237cc3b0'/><circle cx='52' cy='26' r='2.5' fill='%237cc3b0'/><circle cx='184' cy='66' r='2.5' fill='%237cc3b0'/></svg>")}
-.bg-vino{--bg:#8e1b3a;--pat:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 200 200' fill='none' stroke='%23a93756' stroke-width='1.8' stroke-linecap='round'><path d='M0 60C40 30 70 90 110 60S170 40 200 60'/><path d='M100 0C80 40 130 70 100 110S80 170 100 200'/><path d='M110 60C130 80 150 75 165 100'/><path d='M100 110C70 120 45 110 30 140'/><path d='M82 158C62 168 52 186 36 200'/><path d='M36 0C40 10 48 12 52 26'/><path d='M150 76C158 60 172 58 184 66'/><circle cx='165' cy='100' r='3' fill='%23a93756'/><circle cx='30' cy='140' r='3' fill='%23a93756'/><circle cx='52' cy='26' r='2.5' fill='%23a93756'/><circle cx='184' cy='66' r='2.5' fill='%23a93756'/></svg>");color:var(--crema)}
-.bg-pistacho{--bg:#d4e3b6;--pat:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 200 200' fill='none' stroke='%23b3c98a' stroke-width='1.8' stroke-linecap='round'><path d='M0 60C40 30 70 90 110 60S170 40 200 60'/><path d='M100 0C80 40 130 70 100 110S80 170 100 200'/><path d='M110 60C130 80 150 75 165 100'/><path d='M100 110C70 120 45 110 30 140'/><path d='M82 158C62 168 52 186 36 200'/><path d='M36 0C40 10 48 12 52 26'/><path d='M150 76C158 60 172 58 184 66'/><circle cx='165' cy='100' r='3' fill='%23b3c98a'/><circle cx='30' cy='140' r='3' fill='%23b3c98a'/><circle cx='52' cy='26' r='2.5' fill='%23b3c98a'/><circle cx='184' cy='66' r='2.5' fill='%23b3c98a'/></svg>")}
-.bg-mantequilla{--bg:#f8e7a8;--pat:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 200 200' fill='none' stroke='%23e4cb74' stroke-width='1.8' stroke-linecap='round'><path d='M0 60C40 30 70 90 110 60S170 40 200 60'/><path d='M100 0C80 40 130 70 100 110S80 170 100 200'/><path d='M110 60C130 80 150 75 165 100'/><path d='M100 110C70 120 45 110 30 140'/><path d='M82 158C62 168 52 186 36 200'/><path d='M36 0C40 10 48 12 52 26'/><path d='M150 76C158 60 172 58 184 66'/><circle cx='165' cy='100' r='3' fill='%23e4cb74'/><circle cx='30' cy='140' r='3' fill='%23e4cb74'/><circle cx='52' cy='26' r='2.5' fill='%23e4cb74'/><circle cx='184' cy='66' r='2.5' fill='%23e4cb74'/></svg>")}
-.bg-durazno{--bg:#f7cdb5;--pat:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 200 200' fill='none' stroke='%23e8a688' stroke-width='1.8' stroke-linecap='round'><path d='M0 60C40 30 70 90 110 60S170 40 200 60'/><path d='M100 0C80 40 130 70 100 110S80 170 100 200'/><path d='M110 60C130 80 150 75 165 100'/><path d='M100 110C70 120 45 110 30 140'/><path d='M82 158C62 168 52 186 36 200'/><path d='M36 0C40 10 48 12 52 26'/><path d='M150 76C158 60 172 58 184 66'/><circle cx='165' cy='100' r='3' fill='%23e8a688'/><circle cx='30' cy='140' r='3' fill='%23e8a688'/><circle cx='52' cy='26' r='2.5' fill='%23e8a688'/><circle cx='184' cy='66' r='2.5' fill='%23e8a688'/></svg>")}
+/* fondos sólidos con líneas finas del mismo tono, con un poco de contraste */
+[class*="bg-"]{background-color:var(--bg,var(--crema));background-image:repeating-linear-gradient(135deg,transparent 0 9px,var(--ln) 9px 10px)}
+.bg-crema{--bg:#fbf6ea;--ln:#e3d6b4}
+.bg-crema2{--bg:#f6eedb;--ln:#dccea8}
+.bg-menta{--bg:#a8dccf;--ln:#7cc3b0}
+.bg-vino{--bg:#8e1b3a;--ln:#a93756;color:var(--crema)}
+.bg-pistacho{--bg:#d4e3b6;--ln:#b3c98a}
+.bg-mantequilla{--bg:#f8e7a8;--ln:#e4cb74}
+.bg-durazno{--bg:#f7cdb5;--ln:#e8a688}
 
 /* tipografía (referencia Pa'lais) */
 h1,h2,h3{font-family:var(--f-display);font-weight:400;text-transform:uppercase;letter-spacing:.043em}
@@ -57,11 +57,11 @@ h3{font-size:clamp(28px,3vw,36px);line-height:.95;margin-bottom:12px}
 
 /* hero (referencia Flying Papers: titular que se come el viewport) */
 .hero{padding:var(--gap) 0 48px;overflow:hidden}
-.tagline{font-size:clamp(64px,15vw,220px);line-height:.82;letter-spacing:.02em;color:var(--vino);text-align:left}
+.tagline{font-size:clamp(64px,15vw,205px);line-height:.82;letter-spacing:.02em;color:var(--vino);text-align:left}
 .tagline .l{display:block;position:relative;z-index:1;white-space:nowrap}
 .tagline .l:nth-child(2){z-index:2}
-.slot{display:inline-block;position:relative;width:1.55em;height:.7em;vertical-align:baseline}
-.slot img{position:absolute;left:50%;top:50%;height:1.5em;width:auto;max-width:none;transform:translate(-50%,-50%) rotate(-4deg)}
+.slot{display:inline-block;position:relative;width:1.8em;height:.7em;vertical-align:baseline}
+.slot img{position:absolute;left:50%;top:50%;height:1.75em;width:auto;max-width:none;transform:translate(-50%,-50%) rotate(-4deg)}
 .hero-foot{display:flex;flex-wrap:wrap;gap:24px 48px;align-items:center;justify-content:space-between;margin-top:40px}
 .hero-copy{max-width:34ch;font-size:20px;line-height:1.4}
 .hero-actions{display:flex;gap:16px;flex-wrap:wrap}
