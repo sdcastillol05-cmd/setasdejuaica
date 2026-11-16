@@ -13,11 +13,12 @@
 <body>
 
 <header class="top">
-  <a class="brand" href="#inicio" aria-label="Setas de Juaica, inicio"><img class="logo" src="logosetas.svg" alt="Setas de Juaica"></a>
+  <a class="brand" href="#inicio" aria-label="Setas de Juaica, inicio"><img class="logo" src="logosetas.svg" alt=""><span>Setas de Juaica</span></a>
   <nav id="nav" class="nav" aria-label="Principal">
     <a href="#setas">Setas</a>
     <a href="#promesa">Promesa</a>
     <a href="#comprar">Comprar</a>
+    <a href="#blog">Blog</a>
   </nav>
   <a class="btn btn-sm" href="#pedido">Hacer pedido</a>
   <button class="burger" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span><span></span></button>
@@ -64,6 +65,13 @@
       <article class="card bg-crema2"><h3>Eryngii</h3><p>De tallo grueso y firme, aguanta bien la parrilla y la sartén.</p><span class="tag">Fresco</span></article>
       <article class="card bg-pistacho"><h3>Encurtidos</h3><p>De champiñón blanco y de portobello, hechos de forma artesanal. Para picar o acompañar.</p><span class="tag">Artesanal</span></article>
     </div>
+    <h3 class="soon-title">Próximamente</h3>
+    <div class="soon">
+      <div class="soon-item"><strong>Cola de pavo</strong><span>pronto</span></div>
+      <div class="soon-item"><strong>Shiitake</strong><span>pronto</span></div>
+      <div class="soon-item"><strong>Ganoderma</strong><span>pronto</span></div>
+      <div class="soon-item"><strong>Oreja de judas</strong><span>pronto</span></div>
+    </div>
   </div>
 </section>
 
@@ -96,6 +104,20 @@
         <img class="peek peek-2" data-leon src="leon2.svg" alt="">
         <h3>Kit de cosecha de orellana</h3><p>Una bolsa lista para que cultives tus propias orellanas en casa.</p><a class="btn btn-sm" href="#pedido">Quiero uno</a>
       </article>
+    </div>
+  </div>
+</section>
+
+<section id="blog" class="sec bg-pistacho">
+  <div class="wrap blog">
+    <div>
+      <h2>El blog de las setas</h2>
+      <p class="script">recetas y curiosidades, muy pronto</p>
+    </div>
+    <div class="blog-card">
+      <span class="tag">En construcción</span>
+      <p>Estamos preparando recetas, trucos de cocina y datos curiosos sobre las setas. Si te asomas ahora, te recibe un aviso.</p>
+      <a class="btn" href="https://blog.setasdejuaica.com" target="_blank" rel="noopener">Ir al blog</a>
     </div>
   </div>
 </section>
@@ -138,7 +160,7 @@
       <canvas id="game" width="720" height="200" role="img" aria-label="Minijuego: una seta que salta obstáculos de cocina"></canvas>
       <div class="game-hud"><span>Puntos: <b id="score">0</b></span><span>Mejor: <b id="best">0</b></span></div>
     </div>
-    <p class="game-hint">Toca, haz clic o pulsa la barra espaciadora para saltar.</p>
+    <p class="game-hint">Toca, haz clic o pulsa la barra espaciadora para saltar.<br>Llega a 3000 puntos y gana un 10% de descuento en tu próxima compra.</p>
   </div>
 </section>
 
@@ -148,6 +170,7 @@
   <div class="wrap foot-in">
     <img class="logo logo-foot" src="setaslog.svg" alt="Setas de Juaica">
     <span>Frescas y sin conservantes desde 2017</span>
+    <a class="foot-mail" href="mailto:setasjuaica@gmail.com">setasjuaica@gmail.com</a>
     <span>© <span id="year">2026</span></span>
   </div>
 </footer>

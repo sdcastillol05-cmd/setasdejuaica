@@ -119,16 +119,28 @@ h3{font-size:clamp(28px,3vw,36px);line-height:.95;margin-bottom:12px}
 .foot strong{font:400 32px var(--f-display);letter-spacing:.06em;text-transform:uppercase}
 
 /* logos */
+.brand{display:flex;align-items:center;gap:10px}
 .brand img{display:block;height:36px;width:auto}
 .logo-sec{height:56px;width:auto;margin-bottom:20px;display:block}
 .logo-foot{height:52px;width:auto}
+
+/* próximamente, blog y contacto */
+.soon-title{margin:56px 0 16px}
+.soon{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.soon-item{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 22px;border:2px dashed var(--cocoa);border-radius:12px;background:var(--crema)}
+.soon-item strong{font:400 28px/1 var(--f-display);letter-spacing:.043em;text-transform:uppercase}
+.soon-item span{font:700 22px var(--f-script);color:var(--vino)}
+.blog{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.blog-card{display:flex;flex-direction:column;align-items:flex-start;gap:16px;padding:var(--pad);background:var(--crema);border:2px solid var(--cocoa);border-radius:12px;box-shadow:3px 3px 0 var(--cocoa)}
+.blog-card .tag{margin-top:0}
+.foot-mail{color:var(--crema);font:500 16px var(--f-label);letter-spacing:.06em;text-underline-offset:4px}
 
 /* minijuego */
 #juego{padding-bottom:calc(var(--gap) + 56px)}
 .game-card{background:var(--crema);border:2px solid var(--cocoa);border-radius:12px;padding:14px 14px 10px;box-shadow:3px 3px 0 var(--cocoa)}
 #game{display:block;width:100%;height:auto;cursor:pointer;touch-action:manipulation;border-radius:8px}
 .game-hud{display:flex;justify-content:space-between;font:500 14px var(--f-label);letter-spacing:.14em;text-transform:uppercase;padding-top:10px}
-.game-hint{margin-top:16px;font:700 22px var(--f-script)}
+.game-hint{margin-top:16px;font:700 22px/1.2 var(--f-script)}
 
 @media (max-width:760px){
   .nav{position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--crema);border-bottom:1.5px solid var(--cocoa);display:none}
@@ -136,7 +148,7 @@ h3{font-size:clamp(28px,3vw,36px);line-height:.95;margin-bottom:12px}
   .nav a{padding:16px 24px}
   .burger{display:block}
   .top .btn-sm{display:none}
-  .order{grid-template-columns:1fr}
+  .order,.blog{grid-template-columns:1fr}
   .peek-1{width:110px}
   .sticker{position:static;display:block;width:150px;margin:0 0 20px}
 }
