@@ -136,7 +136,7 @@ h3{font-size:clamp(28px,3vw,36px);line-height:.95;margin-bottom:12px}
 .foot-mail{color:var(--crema);font:500 16px var(--f-label);letter-spacing:.06em;text-underline-offset:4px}
 
 /* botón del juego, mascotas del blog y pie, contacto */
-.btn-game{background:var(--vino);color:var(--crema);animation:wiggle 6s ease-in-out infinite}
+.btn-game{white-space:nowrap;background:var(--vino);color:var(--crema);animation:wiggle 6s ease-in-out infinite}
 .btn-game:hover{animation:none;transform:translate(-1px,-1px) rotate(-3deg)}
 @keyframes wiggle{0%,90%,100%{transform:rotate(0)}93%{transform:rotate(-4deg)}96%{transform:rotate(4deg)}}
 .blog-cta{position:relative;display:inline-block;margin-top:40px}
@@ -153,6 +153,9 @@ h3{font-size:clamp(28px,3vw,36px);line-height:.95;margin-bottom:12px}
 .stage .btn{box-shadow:3px 3px 0 var(--mantequilla)}
 @media (prefers-reduced-motion:reduce){.btn-game{animation:none}}
 
+/* contorno negro pequeño para las mascotas leon, leon2 y leon3 */
+.slot img,.blog-leon,.foot-leon{filter:drop-shadow(1.5px 0 0 #000) drop-shadow(-1.5px 0 0 #000) drop-shadow(0 1.5px 0 #000) drop-shadow(0 -1.5px 0 #000)}
+
 /* minijuego */
 #juego{padding-bottom:calc(var(--gap) + 56px)}
 .game-card{background:var(--crema);border:2px solid var(--cocoa);border-radius:12px;padding:14px 14px 10px;box-shadow:3px 3px 0 var(--cocoa)}
@@ -167,8 +170,8 @@ h3{font-size:clamp(28px,3vw,36px);line-height:.95;margin-bottom:12px}
   .burger{display:block}
   .top .btn-sm:not(.btn-game){display:none}
   .top{gap:10px;padding:10px 14px}
-  .brand span{font-size:22px}
-  .btn-game{padding:9px 14px;font-size:12px}
+  .brand span{font-size:18px}
+  .btn-game{padding:9px 12px;font-size:11px;letter-spacing:.04em}
   .order,.blog{grid-template-columns:1fr}
   .peek-1{width:110px}
   .sticker{position:static;display:block;width:150px;margin:0 0 20px}
