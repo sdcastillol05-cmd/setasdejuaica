@@ -135,6 +135,24 @@ h3{font-size:clamp(28px,3vw,36px);line-height:.95;margin-bottom:12px}
 .blog-card .tag{margin-top:0}
 .foot-mail{color:var(--crema);font:500 16px var(--f-label);letter-spacing:.06em;text-underline-offset:4px}
 
+/* botón del juego, mascotas del blog y pie, contacto */
+.btn-game{background:var(--vino);color:var(--crema);animation:wiggle 6s ease-in-out infinite}
+.btn-game:hover{animation:none;transform:translate(-1px,-1px) rotate(-3deg)}
+@keyframes wiggle{0%,90%,100%{transform:rotate(0)}93%{transform:rotate(-4deg)}96%{transform:rotate(4deg)}}
+.blog-cta{position:relative;display:inline-block;margin-top:40px}
+.blog-leon{position:absolute;right:8px;bottom:100%;width:78px;height:auto;margin-bottom:-4px;pointer-events:none}
+.foot{position:relative}
+.foot-leon{position:absolute;right:7%;bottom:calc(100% - 2px);width:clamp(90px,10vw,130px);height:auto;z-index:3;pointer-events:none}
+.foot-brand{display:grid;gap:8px;justify-items:start}
+.foot-contact{font-style:normal;display:grid;gap:4px;font:400 15px/1.4 var(--f-body)}
+.blog-stage{background:#000;color:var(--crema);padding:var(--gap) 0 calc(var(--gap) + 56px)}
+.stage{display:grid;justify-items:center;text-align:center;gap:24px}
+.stage-leon{width:min(100%,760px);height:auto;display:block}
+.stage h1{font-size:clamp(44px,8vw,96px);line-height:.9;color:var(--crema)}
+.stage p{max-width:44ch;font-size:20px}
+.stage .btn{box-shadow:3px 3px 0 var(--mantequilla)}
+@media (prefers-reduced-motion:reduce){.btn-game{animation:none}}
+
 /* minijuego */
 #juego{padding-bottom:calc(var(--gap) + 56px)}
 .game-card{background:var(--crema);border:2px solid var(--cocoa);border-radius:12px;padding:14px 14px 10px;box-shadow:3px 3px 0 var(--cocoa)}
@@ -147,7 +165,10 @@ h3{font-size:clamp(28px,3vw,36px);line-height:.95;margin-bottom:12px}
   .nav.open{display:flex}
   .nav a{padding:16px 24px}
   .burger{display:block}
-  .top .btn-sm{display:none}
+  .top .btn-sm:not(.btn-game){display:none}
+  .top{gap:10px;padding:10px 14px}
+  .brand span{font-size:22px}
+  .btn-game{padding:9px 14px;font-size:12px}
   .order,.blog{grid-template-columns:1fr}
   .peek-1{width:110px}
   .sticker{position:static;display:block;width:150px;margin:0 0 20px}
